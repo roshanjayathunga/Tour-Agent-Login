@@ -1,0 +1,194 @@
+
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.logo-container{
+    text-align: center;
+}
+.logo{
+    width: 60%;
+    height: auto;
+    min-width: 100px;
+}
+
+.left-main-title{
+    margin-top: 4vh;
+    font-size: 18px;
+    font-weight: 500;
+    color:#0077FE;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.left-sub-title{
+    font-size: 18px;
+    font-weight: 500;
+    color:#3C3C3B;
+    text-align: center;
+    text-transform: uppercase;
+}
+.left-feature-container{
+    margin: 7% 15%;
+}
+.feature-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+}
+.feature-icon{
+    width: 40px;
+    height: auto;
+}
+.feature-text{
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 25px;
+    color: #0077FE;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.custom-card{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    padding: 10% 0;
+    box-shadow: 0 0 10px 0px #d4d4d4;
+    border: none;
+}
+
+.login-form-container{
+    width: 75%;
+}
+
+.login-form-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+
+.custom-input{
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+}
+.custom-input:focus{
+    border: none;
+    box-shadow: none;
+}
+
+.custom-icon{
+    color: #868686;
+    font-weight: 300;
+}
+.input-container {
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    border-bottom: 1px solid #868686;
+    margin: 40px 0px ;
+}
+
+.input-container:hover { 
+    border-bottom: 1px solid #0077FE;
+    color: red;
+} 
+.input-container:hover .custom-icon{ 
+    color: #0077FE;
+} 
+
+.input-container:hover .custom-input{ 
+    color: #0077FE;
+}
+
+/*Custom Check Box Styles Start*/
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 500;
+  }
+  
+  .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+  }
+  
+  .checkbox-container:hover input ~ .checkmark {
+    background-color: #868686;
+  }
+  
+
+  .checkbox-container input:checked ~ .checkmark {
+    background-color: #ffffff;
+    border: 1px solid #868686;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .checkbox-container .checkmark:after {
+    left: 4.5px;
+    top: 4.5px;
+    width: 8px;
+    height: 9px;
+    border: solid #de2f59;
+    border-width: 0 9px 9px 0;
+  }
+  
+/*Custom Check Box Styles End*/
+.forgot-password{
+    font-size: 13px;
+    float: right;
+    margin-left: 40px;
+}
+
+.display-inline{
+    display: flex;
+}
+.btn-custom{
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    background-color: #0077FE;
+    border: none;
+}
+.btn-custom:hover{
+    box-shadow: 0 0 5px #0077FE;
+    background: #0077FE;
+}
+
