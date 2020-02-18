@@ -2,6 +2,7 @@
 .main{
     width: 100%;
     height: 100vh;
+    margin: 0;
 }
 .logo-container{
     text-align: center;
@@ -51,12 +52,12 @@
 }
 
 .custom-card{
-    width: 60%;
+    width:70%;
     display: flex;
     align-items: center;
     margin: 0 auto; /* Added */
     float: none; /* Added */
-    padding: 10% 0;
+    padding: 8% 0;
     box-shadow: 0 0 10px 0px #d4d4d4;
     border: none;
 }
@@ -172,12 +173,13 @@
 .forgot-password{
     font-size: 13px;
     float: right;
-    margin-left: 40px;
 }
 
-.display-inline{
+.login-features{
     display: flex;
+    justify-content: space-between;
 }
+
 .btn-custom{
     width: 100%;
     height: 50px;
@@ -186,9 +188,51 @@
     letter-spacing: 0.15rem;
     background-color: #0077FE;
     border: none;
+    margin-top: 10px;
 }
 .btn-custom:hover{
     box-shadow: 0 0 5px #0077FE;
     background: #0077FE;
 }
 
+.create-account-container{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: 600;
+}
+.create-account{
+    color:#00C853;
+    margin-left: 10px;
+}
+
+/*Media Queries*/
+@media only screen and (max-width : 992px) {
+    .custom-card{
+        width: 95%;
+    }
+}
+@media only screen and (max-width : 768px) {
+ .custom-card{
+     width: 95%;
+ }
+ .login-features{
+     display: block;
+     text-align: center;
+ }
+ .checkbox-container{
+     width: 100%;
+ }
+ .checkmark{
+    left: 32%';'
+ }
+ .forgot-password{
+     width: 100%;
+ }
+}
+
+@media only screen and (max-width : 480px) {
+    .checkmark{
+        left: 32%
+     }
+}
