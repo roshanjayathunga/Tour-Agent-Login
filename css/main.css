@@ -37,6 +37,7 @@
     justify-content: center;
     align-items: center;
     margin: 4%;
+    float: left;
 }
 .feature-icon{
     width: 40px;
@@ -138,6 +139,7 @@
     height: 20px;
     width: 20px;
     background-color: #eee;
+    margin-left: 5px;
   }
   
   .checkbox-container:hover input ~ .checkmark {
@@ -196,7 +198,7 @@
 }
 
 .create-account-container{
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     margin-top: 60px;
     font-weight: 600;
@@ -212,9 +214,22 @@
         width: 95%;
     }
 }
+
 @media only screen and (max-width : 768px) {
+.logo-container {
+        margin-top: 5%;
+}
+.logo {
+    width: 100%;
+}
+
+.left-feature-container {
+    margin: 3% 0%;
+}
+
  .custom-card{
      width: 95%;
+     margin-top: 6%;
  }
  .login-features{
      display: block;
@@ -224,7 +239,7 @@
      width: 100%;
  }
  .checkmark{
-    left: 32%';'
+    left: 32%;
  }
  .forgot-password{
      width: 100%;
@@ -233,6 +248,6 @@
 
 @media only screen and (max-width : 480px) {
     .checkmark{
-        left: 32%
+        left: 25%;
      }
 }
