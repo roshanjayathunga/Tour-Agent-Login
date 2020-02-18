@@ -93,7 +93,7 @@
     width: 100%;
     font-size: 16px;
     border-bottom: 1px solid #868686;
-    margin: 40px 0px ;
+    margin: 40px 0px;
 }
 
 .input-container:hover { 
@@ -230,7 +230,11 @@
  .custom-card{
      width: 95%;
      margin-top: 6%;
+     margin-bottom: 75px;
  }
+ .login-form-container {
+    width: 90%;
+}
  .login-features{
      display: block;
      text-align: center;
